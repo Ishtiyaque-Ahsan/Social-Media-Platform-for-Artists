@@ -1,6 +1,7 @@
 # Social-Media-Platform-for-Artists
 Here, I have designed the frontend UI of the Social media website for Artists to provide the artists a platform to showcase and sell their artistic works in public.
-
+I have created 3 webpages here : Home Page , Find Job Page and Message Page.
+All the pages contains diverse features and functionalities.
 Home Page 
 ![WhatsApp Image 2024-06-26 at 21 57 10_ffa1142b](https://github.com/user-attachments/assets/7fb83f59-e852-4d04-95ce-83cc781d2dbc)
 
