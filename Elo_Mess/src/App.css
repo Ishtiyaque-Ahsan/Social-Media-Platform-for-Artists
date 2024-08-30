@@ -1,0 +1,117 @@
+/* Ensuring the html and body take up the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Container for the grid */
+.mess_container {
+  display: grid;
+  grid-template-columns: 30% 50% 20%;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Individual grid items */
+.Menu_box {
+  
+  height: 100%;
+  display: grid;
+  grid-template-columns: 23% 75%;
+ 
+  
+}
+.Index_{
+  background-color: white;
+  
+}
+.Index_item{
+  width: 40%;
+  /* border:1px solid black; */
+  height:40px;
+  border-radius: 16px;
+  margin-left:30%;
+  background-color: white;
+  margin-bottom: 30px;
+  padding-bottom: 0px;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.Index_box{
+border: 2px solid black;
+border-radius: 20px;
+margin: 50px 5px;
+}
+
+.text_box{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.text_box h6, p {
+  margin: 0;
+  padding: 0;
+}
+/* .Mess_box {
+  
+  display: flex;
+  flex-direction: row;
+  padding: 30px 10px;
+} */
+.Mess_box___top {
+  
+  height: 15%;
+  display: flex;
+  padding: 30px 10px;
+}
+.mess___body{
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  height: 70%;
+  margin: 5px 10px;
+ 
+}
+
+.mess___body_a {
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  height: 30%;
+  margin: 5px 10px;
+  
+}
+.mess___body_b {
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  height: 20%;
+  margin: 5px 10px;
+  align-items: flex-end; /* Align items to the right */
+}
+.body_a {
+  width: 40%;
+  height: 100%;
+  border: 2px solid gray;
+  border-radius: 20px;
+  margin-bottom: 10px; /* Optional: Add space between body_a divs */
+}
+
+
+
+.Other_box {
+  background-color: green;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.img___filter {
+  width: 90%;
+  height: 90%;
+  object-fit: cover; /* Other options: contain, fill, scale-down, none */
+}
+.img___menuu {
+  width: 13%;
+  height: 80%;
+  object-fit: cover; /* Other options: contain, fill, scale-down, none */
+}
